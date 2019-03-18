@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>FREE Javascript Apps and Games - The Sweeping Developer</title>
+<link rel='stylesheet' href='style.css' id='styler'>
+</head>
+<body>
+
+<header id="myHeader"></header>
+<nav id="navBar"></nav>
+
+<article>
+
+<h1>Eggcrate Display Control</h1>
+
+<hr>
+
+	<p align="center"><canvas id="gameCanvas">
+		If you're seeing this message, it means that your current browser can't handle the HTML5 and Javascript I put into this website.  Sorry!  Looks dreadful, doesn't it?  If you'd like a better experience, try these browsers instead:  <a href="https://www.google.com/chrome/">Google Chrome</a>, or perhaps <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>.
+	</canvas></p>
+
+		<table align="center">
+			<tr>
+			<th>
+			<input type="text" id="n_bar" value="1" />
+			&#9642
+			Blink <input type="checkbox" id="blink" /> 	&#9642
+			Countdown <input type="checkbox" id="countdown" /> &#9642
+			Sound <input type="checkbox" id="sound" />
+			</th>
+			</tr>
+		
+		</table>
+	<script type="text/javascript" src='programs/eggcrate_js/constants.js'></script>     
+	<script type="text/javascript" src='programs/eggcrate_js/main.js'></script>
+
+	
+
+
+
+
+<h2>About The Program</h2>
+
+	<p>This is a control to simulate old game show displays.  This is intended for use in Open Broadcaster Software for recording or streaming.  The name "Eggcrate" is used by game show fans to describe this type of display.  For more information, check out <a href="http://www.qwizx.com/gameshows/dfg/dfg.html" target="new">Jay Lewis' Display Field Guide.</a></p>
+
+<p><b>Instructions</b></p>
+
+<ul>
+<li>Double-click on the box to change the display.  You can use the following characters:
+	<ul>
+	<li>0123456789$.,</li>
+	</ul>
+</li>
+
+<li>Press ENTER to see it in action.</li>
+<li>Click on the Blink checkbox to make the display blink.</li>
+<li>Click on the Countdown checkbox to start a countdown with the value as the number of seconds.  It will automatically un-check when the countdown reaches zero.</li>
+<li>Click on the Sound checkbox to make the display play a 'ding' sound whenever you change the value of the number.</li>
+<li><b><i>Neat trick!</i></b>  To count up, set the value to zero, then check on the Countdown checkbox.  It will think it's a negative number, but all you'll see is a positive number.</li>
+</ul>
+
+
+</article>
+
+
+<footer id="myFooter"></footer>
+<script src="elements.js"></script>
+
+
+</body>
+</html>
